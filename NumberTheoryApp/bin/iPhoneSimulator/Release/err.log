@@ -1,0 +1,5 @@
+MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
+2018-12-04 16:13:30.903582-0500 NumberTheoryApp[5255:395153] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=5255
+2018-12-04 16:13:30.904060-0500 NumberTheoryApp[5255:395153] SecTaskCopyDebugDescription: NumberTheoryApp[5255]/0#-1 LF=0
+2018-12-04 16:14:40.160915-0500 NumberTheoryApp[5255:395153] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=5255
+2018-12-04 16:14:40.161095-0500 NumberTheoryApp[5255:395153] SecTaskCopyDebugDescription: NumberTheoryApp[5255]/0#-1 LF=0
