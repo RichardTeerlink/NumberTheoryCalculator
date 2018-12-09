@@ -47,11 +47,12 @@ namespace NumberTheoryApp
             }
             return padded_num;
         }
+
         public int Fast_exp(int base_num, int pow, int mod)
         {
             // uses repeated squaring method
-            int tracker = base_num % mod;
-            int output = 1;
+            long tracker = base_num % mod;
+            long output = 1;
             while (pow > 0)
             {
                 if (pow % 2 != 0)
@@ -61,8 +62,9 @@ namespace NumberTheoryApp
                 tracker = (tracker * tracker) % mod;
                 pow = pow / 2;
             }
-            return output;
+            return (int)output;
         }
+
         public string Sanitize_int(string message)
         {
             string clean_message = "";

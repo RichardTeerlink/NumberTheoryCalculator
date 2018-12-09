@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{69806D40-4D15-4F3F-A115-EF44664522F3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="frankensteinsmonster/CodeFile1.cs">
+    <Files>
+      <File FileName="frankensteinsmonster/CodeFile1.cs" Line="68" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.frankensteinsmonster PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>
