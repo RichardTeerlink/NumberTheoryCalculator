@@ -185,7 +185,10 @@ namespace NumberTheoryApp
                             int j = 0;
                             foreach (char k in mesVecStr)
                             {
-                                mesVecForm[i, j] = (int)k % 32;
+                                mesVecForm[i, j] = ((int)k % 32) - 1;
+                                if(mesVecForm[i, j] == -1) {
+                                    mesVecForm[i, j] = 26;
+                                }
                                 j++;
                             }
                             userMessage = userMessage.Substring(3);
@@ -330,6 +333,10 @@ namespace NumberTheoryApp
                         decryptedMessage += decryptedMes[i][0].ToString() + " ";
                         decryptedMessage += decryptedMes[i][1].ToString() + " ";
                         decryptedMessage += decryptedMes[i][2].ToString() + " ";
+
+                        //decryptedMessage += mat.Number2String(decryptedMes[i][0]) + " ";
+                        //decryptedMessage += mat.Number2String(decryptedMes[i][1]) + " ";
+                        //decryptedMessage += mat.Number2String(decryptedMes[i][2]) + " ";
                     }
 
                     bool rightguess = true;

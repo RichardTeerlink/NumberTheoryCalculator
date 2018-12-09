@@ -166,7 +166,9 @@ namespace NumberTheoryApp
                     {
                         encryptedMessage += encryptedMes[i][0].ToString() + " ";
                         encryptedMessage += encryptedMes[i][1].ToString() + " ";
-                        encryptedMessage += encryptedMes[i][2].ToString() + ";
+                        encryptedMessage += encryptedMes[i][2].ToString() + " ";
+
+
                     }
 
                     bool rightguess = true;

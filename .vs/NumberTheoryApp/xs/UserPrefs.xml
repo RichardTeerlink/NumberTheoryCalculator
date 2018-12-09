@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{27256893-6282-4423-A464-208D16FDBCC9}|Default">
   <MonoDevelop.Ide.ItemProperties.NumberTheoryApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6818A60F-F458-4AB0-A644-8559BE6DCFD7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NumberTheoryApp/RSAViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NumberTheoryApp/HillCipherViewController.cs">
     <Files>
       <File FileName="NumberTheoryApp/Main.storyboard" />
-      <File FileName="NumberTheoryApp/HillCipherViewController.cs" Line="112" Column="89" />
-      <File FileName="NumberTheoryApp/MatrixEncryptionViewController.cs" Line="43" Column="18" />
+      <File FileName="NumberTheoryApp/HillCipherViewController.cs" Line="331" Column="43" />
+      <File FileName="NumberTheoryApp/MatrixEncryptionViewController.cs" Line="167" Column="25" />
       <File FileName="NumberTheoryApp/RSACode.cs" Line="1" Column="1" />
       <File FileName="NumberTheoryApp/RSAViewController.cs" Line="1" Column="1" />
       <File FileName="NumberTheoryApp/MatrixFunctions.cs" Line="52" Column="47" />
+      <File FileName="NumberTheoryApp/Main.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
