@@ -23,9 +23,9 @@ namespace NumberTheoryApp
             int val1 = matVals[0] * vecVals[0] + matVals[1] * vecVals[1] + matVals[2] * vecVals[2];
             int val2 = matVals[3] * vecVals[0] + matVals[4] * vecVals[1] + matVals[5] * vecVals[2];
             int val3 = matVals[6] * vecVals[0] + matVals[7] * vecVals[1] + matVals[8] * vecVals[2];
-            val1 = val1 % 26;
-            val2 = val2 % 26;
-            val3 = val3 % 26;
+            val1 = val1 % 27;
+            val2 = val2 % 27;
+            val3 = val3 % 27;
             int[] finalVec = new int[] { val1, val2, val3 };
             return finalVec;
         }
@@ -43,6 +43,16 @@ namespace NumberTheoryApp
             int val9 = matVals[6] * matVals2[2] + matVals[7] * matVals2[5] + matVals[8] * matVals2[8];
             int[] finalVec = new int[] { val1, val2, val3, val4, val5, val6, val7, val8, val9 };
             return finalVec;
+        }
+
+        public String Number2String(int number)
+
+        {
+
+            Char c = (Char)(65 + (number - 1));
+
+            return c.ToString();
+
         }
     }
 }

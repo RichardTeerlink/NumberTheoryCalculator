@@ -86,17 +86,21 @@ namespace NumberTheoryApp
                     else
                     {
                         matrixValues = testMatrix;
-                        string matrixStr = "";
+                        string matrixStr = "{";
                         for (int i = 0; i < 3; i++)
                         {
 
                             for (int j = 0; j < 3; j++)
                             {
-                                matrixStr = matrixStr + matrixValues[3 * i + j] + "\t\t";
+                                matrixStr = matrixStr + matrixValues[3 * i + j] + " ";
                             }
-                            matrixStr += "\n";
+                            if (i < 2)
+                            {
+                                matrixStr += "; ";
+                            }
                         }
-                        matrixView.Text = "Your matrix for encryption is: \n" + matrixStr;
+                        matrixStr = matrixStr + "}";
+                        matrixView.Text = "Your matrix for encryption is: " + matrixStr;
                     }
                 }
             };
@@ -137,7 +141,10 @@ namespace NumberTheoryApp
                         int j = 0;
                         foreach (char k in mesVecStr)
                         {
-                            mesVecForm[i, j] = (int)k % 32;
+                            mesVecForm[i, j] = ((int)k % 32) - 1;
+                            if(mesVecForm[i,j] == -1) {
+                                mesVecForm[i, j] = 26;
+                            }
                             j++;
                         }
                         userMessage = userMessage.Substring(3);
@@ -159,7 +166,7 @@ namespace NumberTheoryApp
                     {
                         encryptedMessage += encryptedMes[i][0].ToString() + " ";
                         encryptedMessage += encryptedMes[i][1].ToString() + " ";
-                        encryptedMessage += encryptedMes[i][2].ToString() + " ";
+                        encryptedMessage += encryptedMes[i][2].ToString() + ";
                     }
 
                     bool rightguess = true;

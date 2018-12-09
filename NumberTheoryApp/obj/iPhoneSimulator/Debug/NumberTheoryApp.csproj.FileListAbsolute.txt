@@ -22,3 +22,15 @@
 /Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/coremlc/_PartialAppManifest.items
 /Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/coremlc/_BundleResourceWithLogicalName.items
 /Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/optimized/
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/bin/iPhoneSimulator/Debug/NumberTheoryApp.exe
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/bin/iPhoneSimulator/Debug/NumberTheoryApp.pdb
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_PartialAppManifest.items
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/NumberTheoryApp.csprojAssemblyReference.cache
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/NumberTheoryApp.csproj.CoreCompileInputs.cache
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/NumberTheoryApp.exe
+/Users/richardteerlink/Desktop/NumberTheoryCalculator/NumberTheoryApp/obj/iPhoneSimulator/Debug/NumberTheoryApp.pdb
