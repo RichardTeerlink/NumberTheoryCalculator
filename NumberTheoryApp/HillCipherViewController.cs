@@ -122,7 +122,7 @@ namespace NumberTheoryApp
             encryptHillMessage.TouchUpInside += (object sender, EventArgs e) =>
             {
                 string userMessage = hillMessageUser.Text;
-                if (Regex.IsMatch(userMessage, @"^[a-zA-Z0-9]+$"))
+                if (Regex.IsMatch(userMessage, @"^[ a-zA-Z]+$"))
                 {
                     showMessage.Text = "Your message is: " + userMessage;
                 }
